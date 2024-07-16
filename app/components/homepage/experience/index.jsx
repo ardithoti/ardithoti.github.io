@@ -38,7 +38,7 @@ function Experience() {
           <div className="flex flex-col gap-6">
             {
               experiences.map(experience => (
-                <a target="_blank" href={experience.link}>
+                <a target="_blank" href={experience.link} key={experience.id}>
                   <GlowCard key={experience.id} identifier={`experience-${experience.id}`}>
                     <div className="p-3 relative">
                       <div className="flex justify-center">

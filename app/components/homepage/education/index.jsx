@@ -44,7 +44,7 @@ function Education() {
             <div className="flex flex-col gap-6">
               {
                 educations.map(education => (
-                  <a target="_blank" href={education.link}>
+                  <a target="_blank" href={education.link} key={education.id}>
                     <GlowCard key={education.id} identifier={`education-${education.id}`}>
 
                       <div className="p-3 relative text-white">
