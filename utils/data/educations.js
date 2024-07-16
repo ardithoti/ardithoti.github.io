@@ -1,20 +1,26 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "Web & Mobile Developer",
+    duration: "Sep 2019 - May 2021",
+    logo: '/cacttuseducation.png',
+    link: 'https://cacttus.education/en/',
+    institution: "Cacctus Education, Prishtina, Kosovo",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: "Bsc. Food Technology",
+    duration: "Oct 2014 - May 2017",
+    logo: '/haxhizeka.png',
+    link: 'https://unhz.eu/',
+    institution: "Haxhi Zeka University, Peja, Kosovo",
   },
   {
     id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    title: "ESL - English as a second language in STEM",
+    duration: "June 2016 - July 2016",
+    logo: '/kentstateuniversity.png',
+    link: 'https://www.kent.edu/',
+    institution: "Kent State University, Ohio, USA",
   }
 ]

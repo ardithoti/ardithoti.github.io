@@ -1,20 +1,19 @@
 export const experiences = [
   {
     id: 1,
-    title: 'Software Engineer I',
-    company: "Teton Private Ltd.",
+    title: "Frontend Engineer",
+    company: "Gjirafa, Inc - GjirafaTech",
+    link: 'https://gjirafa.tech/products',
+    logo: '/gjirafatech.jpg',
     duration: "(Jan 2022 - Present)"
   },
   {
     id: 2,
-    title: "FullStack Developer",
-    company: "Fiverr (freelance)",
-    duration: "(Jun 2021 - Jan 2022)"
+    title: "Frontend Engineer",
+    company: "SDS - Software Development Solutions",
+    link: 'http://sds-ks.com/',
+    logo: '/sds.png',
+    duration: "(May 2020 - Dec 2021)"
   },
-  {
-    id: 3,
-    title: "Self Employed",
-    company: "Code and build something in everyday.",
-    duration: "(Jan 2018 - Present)"
-  }
+  
 ]
